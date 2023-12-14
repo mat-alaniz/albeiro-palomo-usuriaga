@@ -1,0 +1,46 @@
+body{
+    background-color: red;
+  background-image: url(CAI.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.caja{
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 15px black;  
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+
+.container{
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin:200px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+
+}
+
+.container h2{
+    position: absolute;
+ 
+    color: white;
+    
+    
+    text-shadow: 0 10px 8px rgba(0, 0, 0, 0.8);
+
+}
+
+.container ul{
+   position: absolute;
+   
+}
